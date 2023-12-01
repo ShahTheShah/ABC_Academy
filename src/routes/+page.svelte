@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import { Title } from '$tags';
+</script>
+
+<div>
+    <Title level={1}>ABC</Title>
+</div>
+
+<style lang="scss">
+    div {
+        :global(.title) {
+            color: rgba(red, 1);
+            font-size: 120px;
+            text-shadow: 0px 0px 1px #fff;
+        }
+    }
+</style>

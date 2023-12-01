@@ -1,0 +1,9 @@
+/* Selection style */
+*::selection {
+    background-color: $primary;
+    color: white;
+}
+*::-moz-selection {
+    background-color: $primary;
+    color: white;
+}
